@@ -1,0 +1,30 @@
+CSS 
+Cascading Style Sheets
+CSS is the code you use to style your webpage.
+It is a style sheet language. This means that it lets you apply styles selectively to elements in HTML documents.
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+to apply the CSS to your HTML document.
+Anatomy of a CSS ruleset
+p {
+  color: red;
+}
+selector - p
+Declaration - color:red;
+Property - color
+value - red
+
+    Each rule set (apart from the selector) must be wrapped in curly braces ({}).
+    Within each declaration, you must use a colon (:) to separate the property from its values.
+    Within each rule set, you must use a semicolon (;) to separate each declaration from the next one.
+You can also select multiple types of elements and apply a single rule set to all of them. Include multiple selectors separated by commas.
+Element selector 	-	All HTML element(s) of the specified type. - p Selects <p>
+ID selector 		-	The element on the page with the specified ID. - #my-id Selects <p id="my-id"> or <a id="my-id">
+Class selector 		-	The element(s) on the page with the specified class - .my-class Selects <p class="my-class"> and <a class="my-class">
+Attribute selector  -	The element(s) on the page with the specified attribute - img[src] Selects <img src="myimage.png"> but not <img>
+Pseudo-class selector-	The specified element(s), but only when in the specified state - a:hover Selects <a>, but only when the mouse pointer is hovering over the link.
+
+CSS layout is based principally on the box model. Each of the blocks taking up space on your page has properties like this:
+    padding, the space just around the content (e.g., around paragraph text).
+    border, the solid line that sits just outside the padding.
+    margin, the space around the outside of the element.
+padding: Top Right Bottom Left;
