@@ -1,0 +1,9 @@
+Introduction
+JavaScript is a scripting or programming language
+JavaScript is a lightweight interpreted programming language. 
+If you are using JavaScript to manipulate elements on the page (or more accurately, the Document Object Model), your code won't work if the JavaScript is loaded and parsed before the HTML you are trying to do something to.
+Async scripts will download the script without blocking rendering the page and will execute it as soon as the script finishes downloading. 
+It is best to use async when the scripts in the page run independently from each other and depend on no other script on the page.
+If your scripts don't need to wait for parsing and can run independently without dependencies, then use async.
+If your scripts need to wait for parsing and depend on other scripts load them using defer and put their corresponding <script> elements in the order you want the browser to execute them.
+____________________________________________________________________________________________________________
