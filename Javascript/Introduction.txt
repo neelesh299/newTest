@@ -7,3 +7,16 @@ It is best to use async when the scripts in the page run independently from each
 If your scripts don't need to wait for parsing and can run independently without dependencies, then use async.
 If your scripts need to wait for parsing and depend on other scripts load them using defer and put their corresponding <script> elements in the order you want the browser to execute them.
 ____________________________________________________________________________________________________________
+Variable
+Type- Number, String, boolean, array, object;
+____________________________________________________________________________________________________________
+String Methods:
+	str.length property returns string length of str.
+	returns a specific charater in string str - str[i]
+	str.indexof(substring) returns index of substring in string str
+	str.slice(i,j) returns a substring of charaters i to j in string str. The second parameter of slice() is optional: if you don't include it, the slice ends at the end of the original string.
+	The string methods toLowerCase() and toUpperCase() take a string and convert all the characters to lower- or uppercase, respectively. 
+	str.replace(sub1,sub2) replaces sub1 substring with sub2 in string str.
+____________________________________________________________________________________________________________
+Array Methods:
+	
