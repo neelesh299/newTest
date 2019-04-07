@@ -19,4 +19,15 @@ String Methods:
 	str.replace(sub1,sub2) replaces sub1 substring with sub2 in string str.
 ____________________________________________________________________________________________________________
 Array Methods:
+	arr.length returns the number of elements in an array.
+	var myArray = myData.split(','); // split() function here slpits array myData using deliminiator ',' and stores individual entry into myArray.
+	var myNewString = myArray.join(','); // join() function works opposite of split()
+	dogNames.toString(); // works like join() but doesnt take any arguements, use comma as joining delimnimator.
+	To add or remove an item at the end of an array we can use push() and pop() respectively.
+	unshift() and shift() work in exactly the same way as push() and pop(), respectively, except that they work on the beginning of the array.
+	myArray.push('Cardiff');
+	var removedItem = myArray.pop();
+	myArray.unshift('Edinburgh');
+	var removedItem = myArray.shift();
+	_______________________________________________________________________________________________________
 	
